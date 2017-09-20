@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Nadja Koroleva](https://up.htmlacademy.ru/adaptive/12/user/346007).
-* Наставник: `Неизвестно`.
+* Наставник: [Vlad Slepkan](https://htmlacademy.ru/profile/id383197).
 
 ---
 
