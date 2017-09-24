@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mishka</title>
+</head>
+<body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+  <header class="page-header">
+    <a class="page-header__logo" href="index.html">
+      <img class="page-header__logo-image" src="#" alt="Магазин Mishka">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button" name="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active"><a href="index.html"></a>Главная</li>
+          <li class="site-list__item"><a href="form.html">Форма</a></li>
+          <li class="site-list__item"><a href="catalog.html">Каталог</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-  </body>
+  <main class="index-main">
+
+    <h1 class="visually-hidden">Магазин Mishka — cайт приятный мелочей</h1>
+
+    <h2 class="index-main__title">Милые штучки ручной работы для дома</h2>
+    <ul class= "index-main__list main-list">
+      <li class="main-list__item">Предметы интерьера</li>
+      <li class="main-list__item">Детские игрушки</li>
+    </ul>
+  </main>
+
+  <section class="top-item">
+    <h2 class="top-item__title">Вязаные корзинки</h2>
+    <h3 class="top-item__name"></h3>
+    <p class="top-item__desc">Экологически чистая пряжа, ручгая работа. Доступны в шести расцветках, и трех размерах.</p>
+    <span class="top-item__details">Цвет: «Тиффани»/серый</span>
+    <span class="top-item__details">Диаметр: 25см</span>
+    <span class="top-item__details">Высота: 15см</span>
+    <img class="top-item__photo" src="" alt="Вязаные корзинки<">
+    <div class="top-item__price">Цена: 990р.</div>
+    <button class="btn" type="button" name="button">Заказать</button>
+  </section>
+
+  <section class="about-us">
+    <h2 class="about-us__title">Коротко о нас</h2>
+    <ul class="about-us__list desc-list">
+      <li class="desc-list__item"><img class="?" src="" alt=""></li>
+      <li class="desc-list__item">Экологически чистые материалы</li>
+      <li class="desc-list__item"><img class="?" src="" alt=""></li>
+      <li class="desc-list__item">Скандинавский стиль по российской цене</li><li class="desc-list__item"><img class="?" src="" alt=""></li>
+      <li class="desc-list__item">Увеличивает лайки на фотографиях</li>
+      <li class="desc-list__item"><img class="?" src="" alt=""></li>
+      <li class="desc-list__item">Связано вручную с любовью и умилением</li>
+      <li class="desc-list__item"><img class="?" src="" alt=""></li>
+      <li class="desc-list__item">Поддержка отечественного производителя</li>
+      <li class="desc-list__item"><img class="?" src="" alt=""></li>
+      <li class="desc-list__item">Поставляется в подарочной упаковке</li>
+    </ul>
+  </section>
+
+  <section class="feedback">
+    <h2 class="feedback__title">Отзывы</h2>
+    <p class="feedback__desc">Я молодая мама бла бла</p>
+    <span class="feedback__author">Анастасия Красильникова</span>
+    <span class="feedback__nickname">@blahblah</span>
+    <a class="feedback__prev" href=""></a>
+    <a class="feedback__next" href=""></a>
+    <button class="btn" type="button" name="button">Написать</button>
+  </section>
+
+  <section class="contacts">
+    <h3 class="contacts__title">Контакты</h3>
+    <div class="contacts__email">e-mail: info@mimimishkashop.ru</div>
+    <div class="contacts__adress">адрес: г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</div>
+    <div class="contacts__map"></div>
+    <button class="btn" type="button" name="button">Напишите нам</button>
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="footer-wrapper">
+      <ul class="footer__btn">
+        <li class="footer__btn--instagram"><a href="#"><img src="" alt="Instagram"></a></li>
+        <li class="footer__btn--facebook"><a href="#"><img src="" alt="Facebook"></a></li>
+        <li class="footer__btn--twitter"><a href="#"><img src="" alt="Twitter"></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-wrapper">
+      <ul class="footer-dev">
+        <li class="footer-dev__title">Разработано</li>
+        <li class="footer-dev__logo"><a href=""></a><img src="" alt="HTML Academy"></li>
+      </ul>
+    </div>
+
+  </footer>
+
+</body>
 </html>
