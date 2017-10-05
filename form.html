@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mishka</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -34,7 +35,7 @@
         <form class="order__form" action="/echo" method="post">
 
           <fieldset>
-            <legend>Тип</legend>
+            <legend class="form-legend">Тип</legend>
             <div class="form-control">
               <input class="form-control__type" type="radio" id="type1" name="type" value="accessory-interior">
               <label class="form-control__type-name" for="type1">Аксессуар для интерьера</label>
@@ -44,7 +45,7 @@
           </fieldset>
 
           <fieldset>
-            <legend>Цвет</legend>
+            <legend class="form-legend">Цвет</legend>
             <div class="form-control">
               <input class="form-control__color" type="checkbox" id="choose-color" name="white" value="color">
               <label class="form-control__color-name" for="choose-color">Белый</label>
@@ -62,7 +63,7 @@
           </fieldset>
 
           <fieldset>
-            <legend>ФИО</legend>
+            <legend class="form-legend">ФИО</legend>
             <div class="form-control">
               <label class="form-control__userinfo" for="name">Имя</label>
               <input class="form-control__user-input" type="text" id="name" name="name" placeholder="Введите ваше имя" required>
@@ -70,11 +71,11 @@
               <input class="form-control__user-input" type="text" id="surname" name="surname" placeholder="Укажите фамилию" required>
               <label class="form-control__userinfo" for="second-name">Отчество</label>
               <input class="form-control__user-input" type="text" id="second-name" name="second-name" placeholder="Отчество, если желаете">
-              <label class="form-control__userinfo" for="tel">Тел</label>
+              <label class="form-control__userinfo-green" for="tel">Тел</label>
               <input class="form-control__user-input" type="tel" id="tel" name="tel" placeholder="+7 XXX XX XX" required>
-              <label class="form-control__userinfo" for="email">E-mail</label>
+              <label class="form-control__userinfo-green" for="email">E-mail</label>
               <input class="form-control__user-input" type="mail" id="email" name="email" placeholder="Ваш Email" required>
-              <label class="form-control__userinfo" for="add">Доп</label>
+              <label class="form-control__userinfo-green" for="add">Доп</label>
               <input class="form-control__user-input" type="text" id="add" name="add" placeholder="Опишите все ваши пожелания к заказу">
             </div>
           </fieldset>
