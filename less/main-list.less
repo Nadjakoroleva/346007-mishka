@@ -6,3 +6,22 @@
   line-height: 24px;
   color: @white;
 }
+
+.main-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: @tablet-width) {
+  .main-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top-item__flex {
+    display: flex;
+    flex-direction: row;
+  }
+}
