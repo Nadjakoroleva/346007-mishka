@@ -16,14 +16,16 @@
   <body>
     <header class="page-header">
         <div class="container">
+          <div class="page-header__wrapper">
       <a class="page-header__logo" href="index.html">
-        <img class="page-header__logo-image" src="#" alt="Магазин Mishka">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="Магазин Mishka">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button" name="button">Открыть меню</button>
+        <button class="main-nav__toggle" type="button" name="button"><img src="img/icon-menu-open.svg" alt=""></button>
+      </div>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item--active"><a href="catalog.html"></a>Каталог товаров</li>
+            <li class="site-list__item--active"><a href="catalog.html"></a><b>Каталог товаров</b></li>
             <li class="site-list__item"><a href="form.html">Вязание на заказ</a></li>
             <li class="site-list__item"><a href="#"><img class="site-list__search" src="" alt="">Поиск по сайту</a></li>
             <li class="site-list__item"><a href="#"><img class="site-list__basket" src="" alt="">Корзина: Пока пуста</a></li>
@@ -41,30 +43,34 @@
       <h1 class="visually-hidden">Магазин Mishka — cайт приятный мелочей</h1>
 
       <section class="catalog">
-        <div class="container">
           <h1 class="catalog__title">Каталог товаров</h1>
 
           <ul class="catalog__card">
-            <li class="catalog__photo"><img src="#" alt="Зайчик-попрыгайчик"></li>
+            <li class="catalog__photo"><img src="img/photo-hare-mobile@1x.jpg" width="260" height="200" alt="Зайчик-попрыгайчик"></li>
+            <div class="catalog__wrapper">
             <li class="catalog__name">Зайчик-попрыгайчик</li>
             <li class="catalog__desc">Рост 30 см, вес 200 г</li>
-            <li class="catalog__price">1 200р</li>
+            <li class="catalog__price">1 200 руб.</li>
+          </div>
           </ul>
 
           <ul class="catalog__card">
-            <li class="catalog__photo"><img src="#" alt="Корзинка для белья"></li>
+            <li class="catalog__photo"><img src="img/photo-bowl-mobile@1x.jpg" width="260" height="200" alt="Корзинка для белья"></li>
+            <div class="catalog__wrapper"></div>
             <li class="catalog__name">Корзинка для белья</li>
             <li class="catalog__desc">Диаметр 15 см, высота 10 см</li>
             <li class="catalog__price">690р</li>
+          </div>
           </ul>
 
           <ul class="catalog__card">
-            <li class="catalog__photo"><img src="#" alt="Большая корзинка для игрушек"></li>
+            <li class="catalog__photo"><img src="img/photo-toys-mobile@1x.jpg" width="260" height="200" alt="Большая корзинка для игрушек"></li>
+            <div class="catalog__wrapper"></div>
             <li class="catalog__name">Большая корзинка для игрушек</li>
             <li class="catalog__desc">Диаметр 30 см, высота 30 см</li>
             <li class="catalog__price">1 500р</li>
+          </div>
           </ul>
-        </div>
       </section>
 
       <section class="process">
