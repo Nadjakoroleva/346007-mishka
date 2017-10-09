@@ -24,16 +24,18 @@
 }
 
 .footer-dev {
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style-type: none;
+}
+
+.footer__btn--logo {
+  display: none;
 }
 
 @media (min-width: @tablet-width) {
   .contacts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 }

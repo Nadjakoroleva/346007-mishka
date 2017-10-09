@@ -12,19 +12,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-.visually-hidden {
-  display: none;
-}
-
-.container {
-  width: 250px;
-  margin: 0 auto;
-}
-
-@media (min-width: @tablet-width) {
-  .container {
-    width: 650px;
-    margin: 0 auto;
-  }
-}
