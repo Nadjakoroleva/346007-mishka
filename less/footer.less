@@ -8,6 +8,7 @@
   font-size: 19px;
   line-height: 18px;
   color: @black;
+  margin-right: 70px;
 }
 
 .footer-wrapper {
@@ -28,13 +29,25 @@
 .footer-dev {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   list-style-type: none;
 }
 
 .footer__btn--logo {
   display: none;
+}
+
+.footer__btn--instagram {
+  flex-basis: 20px;
+}
+
+.footer__btn--facebook {
+  flex-basis: 20px;
+}
+
+.footer__btn--twitter {
+  flex-basis: 70px;
 }
 
 @media (min-width: @tablet-width) {

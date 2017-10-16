@@ -1,9 +1,17 @@
+.process {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .process__title {
   font-family: "OpenSans", "Helvetica", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   color: @black;
+  text-align: left;
 }
 
 .process__text {
@@ -14,33 +22,29 @@
   color: @black;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.process {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
+  padding-left: 35px;
+  text-align: left;
 }
 
 .process-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 35px;
 }
 
 .process__image {
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 .process__video {
   padding-top: 30px;
+  width: 100%;
 }
 
 .process__border {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
   border: 1px solid #ececec;
 }
 
