@@ -1,5 +1,11 @@
 .feedback__title {
-  .title();
+  font-family: "OpenSans", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: @black;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .feedback__desc {
@@ -8,12 +14,23 @@
   font-size: 15px;
   line-height: 30px;
   color: #444444;
+  padding-bottom: 20px;
 }
 
-.feedback__author,
 .feedback__nickname {
   font-family: "OpenSans", "Helvetica", sans-serif;
   font-weight: normal;
+  font-size: 17px;
+  line-height: 1.3;
+  color: @black;
+  margin-top: 5px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.feedback__author {
+  font-family: "OpenSans", "Helvetica", sans-serif;
+  font-weight: bold;
   font-size: 17px;
   line-height: 1.3;
   color: @black;
@@ -22,6 +39,22 @@
 .feedback {
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.feedback-arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #ececec;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 35px;
+}
+
+.feedback__prev {
+  border-right: 1px solid #ececec;
+  padding-right: 50px;
 }
 
 @media (min-width: @tablet-width) {

@@ -1,9 +1,22 @@
 .form-legend {
   font-family: "OpenSans", "Helvetica", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 17px;
   line-height: 16px;
   color: @green;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+.form-legend::after {
+  content: "";
+  position: absolute;
+  bottom: 32px;
+  left: 60px;
+  border-bottom: 1px solid @green;
+  width: 200px;
 }
 
 .form-control {
@@ -11,24 +24,60 @@
   flex-direction: column;
 }
 
+.form-control__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .form-control__type-name {
   .form-control-text();
+  margin-left: 35px;
 }
 
 .form-control__color-name {
   .form-control-text();
+  margin-left: 35px;
+  padding-top: 20px;
 }
 
 .form-control__userinfo {
   .form-control-text();
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.form-control__user-input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 255px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "OpenSans", "Helvetica", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.form-control__user-input:last-child {
+  border: 2px solid black;
+  padding-bottom: 100px;
+}
+
+fieldset {
+  border: none;
+  padding-left: 0;
 }
 
 .form-control__userinfo-green {
   font-family: "OpenSans", "Helvetica", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 17px;
   line-height: 18px;
   color: @green;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 @media (min-width: @tablet-width) {

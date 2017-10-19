@@ -1,23 +1,51 @@
 .contacts {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .contacts__title {
   font-family: "OpenSans", "Helvetica", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
+  font-style: normal;
   font-size: 18px;
   line-height: 30px;
   color: @black;
 }
 
-.contacts__email,
+.contacts__email {
+  font-family: "OpenSans", "Helvetica", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts__email span {
+  margin-left: 30px;
+  border-bottom: 1px solid @green;
+  padding-bottom: 5px;
+}
+
 .contacts__adress {
   font-family: "OpenSans", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+
+.contacts__map {
+  padding-bottom: 30px;
+}
+
+.contacts__adress span:nth-child(2) {
+  margin-left: 30px;
 }
 
 @media (min-width: @desktop-width) {
