@@ -23,11 +23,11 @@
   position: absolute;
   top: -20px;
   left: -20px;
-  width: 36px;
-  height: 2px;
+  width: 40px;
+  height: 40px;
   z-index: 2;
-  background-image: url("/img/icon-menu-close.svg");
-  background-repeat: no-repeat;
+  background-image: url("/img/icon-menu-close.svg") 100% 100% no-repeat;
+  background-size: cover;
 }
 
 .main-nav--opened .main-nav__toggle::before {
@@ -37,8 +37,9 @@
   left: 10;
   z-index: 2;
   width: 40px;
+  height: 40px;
   cursor: pointer;
   border: none;
-  background-image: url("/img/icon-menu-open.svg");
-  background-repeat: no-repeat;
+  background-image: url("/img/icon-menu-open.svg") 100% 100% no-repeat;
+  background-size: cover;
 }
