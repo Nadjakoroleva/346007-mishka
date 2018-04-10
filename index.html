@@ -1,178 +1,86 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Календарь</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mishka</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="css/normalise.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-
-    <header class="page-header">
-      <div class="container">
-        <div class="page-header__wrapper">
-          <ul class="page-header__list">
-            <li class="page-header__logo">
-              <a href="index.html">
-                <picture>
-                  <source media="(min-width:1200px)" srcset=img/mishka-logo-tablet.png>
-                  <source media="(min-width:768px)" srcset=img/mishka-logo-tablet.png>
-                  <source srcset=img/logo-mobile.svg>
-                  <img src=img/logo-mobile.svg alt="Магазин Mishka">
-                </picture>
-              </a>
-            </li>
-            <li class="page-header__search"><img src="img/icon-search.svg" alt="Поиск по сайту"></li>
-            <li class="page-header__basket"><img src="img/icon-cart.svg" alt="">Корзина: пока пуста</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <nav class="main-nav .main-nav--opened">
-        <button class="main-nav__toggle" type="button" name="button"><img src="#" alt=""><span class="visually-hidden">Открыть меню</span></button>
-
-        <div class="container">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item"><a href="catalog.html">Каталог товаров</a></li>
-            <li class="site-list__item"><a href="form.html">Вязание на заказ</a></li>
-            <li class="site-list__item">
-              <a href="#"><img class="site-list__search" src="img/icon-search.svg" alt="Поиск по сайту">Поиск по сайту</a>
-            </li>
-            <li class="site-list__item">
-              <a href="#"><img class="site-list__basket" src="img/icon-cart.svg" alt="">Корзина: пока пуста</a>
-            </li>
-            <li class="site-list__item"><a href="">Бесплатная доставка по России</a></li>
-            <li class="site-list__item"><a href="">Новые поступления</a></li>
-            <li class="site-list__item"><a href="">Распродажа</a></li>
-          </ul>
-        </div>
-      </nav>
-      </div>
-    </header>
-
-    <main class="index-main">
-
-      <h1 class="visually-hidden">Магазин Mishka — cайт приятный мелочей</h1>
-
-      <h2 class="index-main__title">Милые штучки<br>ручной<br>работы для дома</h2>
-      <ul class="index-main__list main-list-interior">
-        <li class="main-list-interior__item">Предметы
-          <br>интерьера</li>
-        <li class="main-list-interior__item"><img class="main-list__icon" src="img/icon-interior.svg" alt=""></li>
-      </ul>
-      <ul class="index-main__list main-list-toys">
-        <li class="main-list-toys__item">Детские
-          <br>игрушки</li>
-        <li class="main-list-toys__item"><img class="main-list__icon" src="img/icon-toy.svg" alt=""></li>
-      </ul>
-
-    </main>
-
-    <section class="top-item">
-      <div class="container">
-        <div class="top-item__flex">
-          <h2 class="top-item__title">Вязаные корзинки</h2>
-          <h3 class="top-item__name">Товар недели</h3>
-          <p class="top-item__desc">Экологически чистая пряжа,
-            <br>ручная работа. Доступны в шести
-            <br>расцветках, и трех размерах.</p>
-          <p class="top-item__details">Цвет: <span class="top-item__color">«Тиффани»/серый</span></p>
-          <p class="top-item__details">Диаметр: 25см</p>
-          <p class="top-item__details">Высота: 15см</p>
-          <img class="top-item__photo" src="img/triple-set-mobile@1x.jpg" alt="Вязаные корзинки">
-          <div class="top-item__price">Цена: 990 руб.</div>
-          <button class="btn" type="button" name="button">Заказать</button>
-        </div>
-      </div>
-    </section>
-
-    <div class="border-zig-zag"></div>
-
-    <section class="about-us">
-      <div class="container">
-        <h2 class="about-us__title">Коротко о нас</h2>
-        <ul class="about-us__list desc-list">
-          <li class="desc-list__item"><img class="desc-list__pic" src="img/icon-feature-flower.svg" alt=""></li>
-          <li class="desc-list__item">Экологически
-            <br> чистые материалы</li>
-          <li class="desc-list__item"><img class="desc-list__pic" src="img/icon-feature-money.svg" alt=""></li>
-          <li class="desc-list__item">Скандинавский стиль
-            <br> по российской цене</li>
-          <li class="desc-list__item"><img class="desc-list__pic" src="img/icon-feature-heart.svg" alt=""></li>
-          <li class="desc-list__item">Увеличивает лайки
-            <br> на фотографиях</li>
-          <li class="desc-list__item"><img class="desc-list__pic" src="img/icon-feature-ball.svg" alt=""></li>
-          <li class="desc-list__item">Связано вручную с
-            <br> любовью и умилением</li>
-          <li class="desc-list__item"><img class="desc-list__pic" src="img/icon-feature-rocket.svg" alt=""></li>
-          <li class="desc-list__item">Поддержка отечественного
-            <br> производителя</li>
-          <li class="desc-list__item"><img class="desc-list__pic" src="img/icon-feature-gift.svg" alt=""></li>
-          <li class="desc-list__item">Поставляется в
-            <br> подарочной упаковке</li>
-        </ul>
-      </div>
-    </section>
-
-    <div class="feedback">
-      <div class="container">
-        <h2 class="feedback__title"><b>Отзывы</b></h2>
-        <p class="feedback__desc">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-        <span class="feedback__author">Анастасия Красильникова</span>
-        <p class="feedback__nickname">@misssssiskras</p>
-        <div class="feedback-arrow">
-          <a class="feedback__prev" href=""><img src="img/icon-left-arrow.svg" alt=""></a>
-          <a class="feedback__next" href=""><img src="img/icon-right-arrow.svg" alt=""></a>
-        </div>
-        <button class="btn" type="button" name="button">Написать</button>
+  <div class="page-header">
+    <div class="page-header__cover">
+    <div class="page-header__wrapper">
+    <button class="page-header__button">Добавить</button>
+    <button class="page-header__button">Обновить</button>
+  </div>
+    <img class="page-header__icon" src="img/lupa.png" alt="" width="10">
+    <form class="page-header__form" name="test" method="post" action="">
+      <div class="page-header__input">
+       <input type="text" size="40" placeholder="Событие, дата или участники">
       </div>
     </div>
-
-    <div class="border-zig-zag"></div>
-
-    <address class="contacts">
-      <div class="container">
-    <h3 class="contacts__title">Контакты</h3>
-    <a class="contacts__email" href="mailto:info@mimimishkashop.ru">e-mail: <span>info@mimimishkashop.ru</span></a>
-    <p class="contacts__adress"> <span>адрес:</span> <span>г. Санкт-Петербург, ул. Большая Конюшенная, <br> д. 19/8, офис 101</span></p>
-    <div class="contacts__map"><img src="img/map-mobile@1x.jpg" alt=""></div>
-    <button class="btn" type="button" name="button">Напишите нам</button>
   </div>
-  </address>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-wrapper">
-          <ul class="footer__btn">
-            <li class="footer__btn--instagram">
-              <a href="#"><img src="img/icon-insta.svg" alt="Instagram"></a>
-            </li>
-            <li class="footer__btn--facebook">
-              <a href="#"><img src="img/icon-fb.svg" alt="Facebook"></a>
-            </li>
-            <li class="footer__btn--twitter">
-              <a href="#"><img src="img/icon-twitter.svg" alt="Twitter"></a>
-            </li>
-          </ul>
-
-          <div class="footer-wrapper">
-            <ul class="footer-dev">
-              <li class="footer-dev__title">Разработано</li>
-              <li class="footer-dev__logo">
-                <a href=""></a><img src="img/htmlacademy.svg" width="35" height="45" alt="HTML Academy"></li>
-            </ul>
-          </div>
-        </div>
+      <div class="date">
+        <ul class="date__list">
+          <li class="date__list-prev"><button><img src="img/narrow.svg" alt="" width="5"></button></li>
+          <li class="date__list-month">Март 2013</li>
+          <li class="date__list-next"><button><img src="img/narrow.svg" alt="" width="5"></button></li>
+          <li class="date__list-today">Сегодня</li>
+        </ul>
       </div>
-    </footer>
 
-  </body>
+      <table class="calendar">
+        <tr class="calendar-weekdays">
+          <td class="calendar-table">Понедельник, 25</td>
+          <td class="calendar-table">Вторник, 26</td>
+          <td class="calendar-table">Среда, 27</td>
+          <td class="calendar-table">Четверг, 28</td>
+          <td class="calendar-table">Пятница, 1</td>
+          <td class="calendar-table calender-today">Суббота, 2</td>
+          <td class="calendar-table">Воскресенье, 3</td>
+        </tr>
+        <tr>
+          <td class="calendar-table">4</td>
+          <td class="calendar-table">5</td>
+          <td class="calendar-table">6</td>
+          <td class="calendar-table">7</td>
+          <td class="calendar-table">8</td>
+          <td class="calendar-table calendar-plan">9 <div class="calendar-plan__title">Вечеринка!</div><div class="calendar-plan__text">День Рождения</div></td>
+          <td class="calendar-table">10</td>
+        </tr>
+        <tr>
+          <td class="calendar-table">6</td>
+          <td class="calendar-table">7</td>
+          <td class="calendar-table">8</td>
+          <td class="calendar-table">9</td>
+          <td class="calendar-table">10</td>
+          <td class="calendar-table">11</td>
+          <td class="calendar-table">12</td>
+        </tr>
+        <tr>
+          <td class="calendar-table">13</td>
+          <td class="calendar-table">14</td>
+          <td class="calendar-table">15</td>
+          <td class="calendar-table">16</td>
+          <td class="calendar-table">17</td>
+          <td class="calendar-table">18</td>
+          <td class="calendar-table">19</td>
+        </tr>
+        <tr>
+          <td class="calendar-table">20</td>
+          <td class="calendar-table">21</td>
+          <td class="calendar-table calendar-plan">22<div class="calendar-plan__title">Отпуск!</div><div class="calendar-plan__text">Море</div></td>
+          <td class="calendar-table">23</td>
+          <td class="calendar-table">24</td>
+          <td class="calendar-table">25</td>
+          <td class="calendar-table">26</td>
+        </tr>
+      </table>
+      </div>
 
+
+</body>
 </html>
